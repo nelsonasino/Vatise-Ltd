@@ -124,7 +124,7 @@ const Mansionette = () => {
       </div>
 
       <motion.div
-        className="w-full grid md:max-h-[100vh] md:grid-cols-3 grid-cols-2 md:grid-rows-3 grid-rows-4 gap-2"
+        className="w-full grid md:max-h-[100vh] md:grid-cols-3 grid-cols-2 md:grid-rows-2 grid-rows-3 gap-2"
         initial="hidden"
         whileInView="visible"
         variants={container}

@@ -69,7 +69,7 @@ const AboutScreen = () => {
       </p>
 
       <motion.div
-        className="md:px-28 px-4 text-center"
+        className="md:px-32 px-4 md:text-s text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -88,7 +88,7 @@ const AboutScreen = () => {
       </motion.div>
 
       <motion.div
-        className="md:px-28 px-4 pt-12 text-center"
+        className="md:px-32 px-4 pt-12 text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -110,7 +110,7 @@ const AboutScreen = () => {
       </motion.div>
 
       <motion.div
-        className="md:px-28 px-4 pt-12 text-center"
+        className="md:px-32 px-4 pt-12 text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -131,7 +131,7 @@ const AboutScreen = () => {
       </motion.div>
 
       <motion.div
-        className="md:px-28 px-4 pt-12 text-center"
+        className="md:px-32 px-4 pt-12 text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -151,7 +151,7 @@ const AboutScreen = () => {
       </motion.div>
 
       <motion.div
-        className="md:px-28 px-4 pt-12 text-center"
+        className="md:px-32 px-4 pt-12 text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -169,7 +169,7 @@ const AboutScreen = () => {
       </motion.div>
 
       <motion.div
-        className="md:px-28 px-4 pt-12 text-center"
+        className="md:px-32 px-4 pt-12 text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -188,7 +188,7 @@ const AboutScreen = () => {
       </motion.div>
 
       <motion.div
-        className="md:px-28 px-4 py-12 text-center"
+        className="md:px-32 px-4 py-12 text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}

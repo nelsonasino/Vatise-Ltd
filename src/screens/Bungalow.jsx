@@ -87,7 +87,7 @@ const Bungalow = () => {
         <p className="flex items-center justify-center gap-3"><IoIosBed/>3 bedroom</p>
       </div>
       <motion.div
-        className="w-full mb-8 grid md:max-h-[100vh] md:grid-cols-3 grid-cols-2 md:grid-rows-3 grid-rows-4 gap-2"
+        className="w-full mb-8 grid md:max-h-[100vh] md:grid-cols-3 grid-cols-2 md:grid-rows-2 grid-rows-3 gap-2"
         initial="hidden"
         whileInView="visible"
         variants={container}
@@ -106,15 +106,6 @@ const Bungalow = () => {
         />
 
         <ImageCard
-          source={"/images/bungalow6.jpg"}
-          type={"Butterfly roof"}
-          bedrooms={3}
-          squareArea={"261"}
-          other={"Double garage"}
-          size={"19m x 17m"}
-        />
-
-        <ImageCard
           source={"/images/bungalow7.jpg"}
           type={"Butterfly roof"}
           bedrooms={3}
@@ -124,37 +115,7 @@ const Bungalow = () => {
         />
       </motion.div>
 
-      <div className="text-center font-semibold my-10 px-8 py-2 rounded-md flex items-center justify-center bg-orange-400 text-slate-800">
-        <p className="flex items-center justify-center gap-3"><IoIosBed/>3 bedroom</p>
-      </div>
-
-      <motion.div
-        className="w-full mb-8 grid md:max-h-[70vh] md:grid-cols-3 grid-cols-2 md:grid-rows-2 grid-rows-3 gap-2"
-        initial="hidden"
-        whileInView="visible"
-        variants={container}
-      >
-        <VideoCard
-          source={"/images/3bdrmbungalow3.mp4"}
-        />
-        <ImageCard
-          source={"/images/bungalow8.jpg"}
-          type={"Roundavel design"}
-          bedrooms={3}
-          squareArea={"234"}
-          other={"Double garage"}
-          size={""}
-        />
-
-        <ImageCard
-          source={"/images/bungalow9.jpg"}
-          type={"Roundavel design"}
-          bedrooms={3}
-          squareArea={"234"}
-          other={"Double garage"}
-          size={""}
-        />
-      </motion.div>
+      
     </div>
   );
 };
